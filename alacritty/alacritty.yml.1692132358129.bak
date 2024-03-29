@@ -1,0 +1,84 @@
+env:
+  TERM: xterm-256color
+
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 160
+    lines: 80
+
+  # opacity: 0.90
+
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 0
+    y: 0
+
+  # Window decorations
+  # Setting this to false will result in window without borders and title bar.
+  decorations: full
+
+  startup_mode: Maximized
+
+  dynamic_title: true
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: SFMono
+
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+# import:
+#   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+shell:
+  program: /bin/zsh
+  # colors:
+  #   # Default colors
+  #   cursor:
+  #     text: '0x1E1D2F'
+  #     cursor: '0xF5E0DC'
+  #
+  # Normal colors
+
+colors:
+  name: Bitmute
+  author: ""
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#000000"
+    cursor: "#ffffff"
+  normal:
+    black: "#282828"
+    red: "#b76969"
+    green: "#719d72"
+    yellow: "#909858"
+    blue: "#68668f"
+    magenta: "#966894"
+    cyan: "#688891"
+    white: "#8e8e8e"
+  bright:
+    black: "#494949"
+    red: "#b87e7e"
+    green: "#839d84"
+    yellow: "#919864"
+    blue: "#73718f"
+    magenta: "#987397"
+    cyan: "#758c93"
+    white: "#aeaeae"
+
+import:
+  # uncomment the flavour you want below:
+  # - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  - ~/.config/alacritty/pencil_dark.yaml
+theme: Bitmute
+
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml

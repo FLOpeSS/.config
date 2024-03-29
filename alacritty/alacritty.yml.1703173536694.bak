@@ -1,0 +1,79 @@
+env:
+  TERM: xterm-256color
+
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 160
+    lines: 80
+
+  opacity: 0.85
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 0
+    y: 0
+
+  # Window decorations
+  # Setting this to false will result in window without borders and title bar.
+  decorations: full
+
+  startup_mode: Maximized
+
+  dynamic_title: true
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    # family: SFMono
+    family: FiraMono NerdFont
+
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+# import:
+#   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+shell:
+  program: /bin/zsh
+  # colors:
+  #   # Default colors
+  # Normal colors
+
+# cursor:
+#   text: "#231f20"
+#   cursor: "#d9d8d8"
+colors:
+  name: vscode (dark)
+  author: senpai-10
+  primary:
+    background: "#1E1E1E"
+    foreground: "#D4D4D4"
+  cursor:
+    text: "#1d1f21"
+    cursor: "#cccccc"
+  normal:
+    black: "#000000"
+    red: "#cd3131"
+    green: "#0dbc79"
+    yellow: "#e5e510"
+    blue: "#2472c8"
+    magenta: "#bc3fbc"
+    cyan: "#11a8cd"
+    white: "#e5e5e5"
+  bright:
+    black: "#666666"
+    red: "#f14c4c"
+    green: "#23d18b"
+    yellow: "#f5f543"
+    blue: "#3b8eea"
+    magenta: "#d670d6"
+    cyan: "#29b8db"
+    white: "#e5e5e5"
+theme: vscode.dark
+
+# theme: New-Moon
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml

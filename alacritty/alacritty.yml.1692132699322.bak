@@ -1,0 +1,76 @@
+env:
+  TERM: xterm-256color
+
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 160
+    lines: 80
+
+  # opacity: 0.90
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 0
+    y: 0
+
+  # Window decorations
+  # Setting this to false will result in window without borders and title bar.
+  decorations: full
+
+  startup_mode: Maximized
+
+  dynamic_title: true
+
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: SFMono
+
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+# import:
+#   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+shell:
+  program: /bin/zsh
+  # colors:
+  #   # Default colors
+  
+  # Normal colors
+
+colors:
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
+  primary:
+    background: '#2D2D2D'
+    foreground: '#B3B9C5'
+  # Normal colors
+  normal:
+    black: '#2D2D2D'
+    red: '#F2777A'
+    green: '#92D192'
+    yellow: '#FFD479'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#B3B9C5'
+  # Bright colors
+  bright:
+    black: '#777C85'
+    red: '#F2777A'
+    green: '#76D4D6'
+    yellow: '#FFEEA6'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#FFFFFF'
+
+# theme: New-Moon
+
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
